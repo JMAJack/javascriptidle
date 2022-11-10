@@ -1,0 +1,49 @@
+//HTML tags can be in Javascript
+//doucment.writeln  inserts a space after the information placed in it
+//doucment.write doesnt
+//
+
+/*
+document.write("sum is : " + (x + y)); 
+<!-- Addition without user input -->
+*/
+
+/*
+2 steps in Variable Creation
+    1.Declaration (var, let, const)
+    2.Assignment (= Assignment operator)
+*/
+<script type="text/javascript">
+
+    console.log("Beginning of Javascript");
+
+    document.writeln("<h1><u>Rawr</u></h1>");
+    document.write("XD<br></br>");
+
+    var x = 3, y = 5;
+    document.write("sum is : " + (x + y));
+
+
+    var a, b;
+    a = window.prompt("Enter First Number");
+    b = window.prompt("Enter Second Number");
+    document.writeln("<br></br>Sum is: " + (parseFloat(a) + parseInt(b)));
+
+    window.alert("Save your file and Close");
+
+    document.writeln("Unto another Sector");
+
+    let firstname = "Bro";
+    let age = 12;
+    let student = true;
+
+    document.writeln("First Name: ",firstname);
+    document.writeln("age: ",age);
+    document.writeln("boolean: ",student);
+
+
+    document.getElementById("p1").innerHTML = "Kudus" + firstname;
+    document.getElementById("p2").innerHTML = "You Died at " + age + " years old.";
+    document.getElementById("p3").innerHTML = "Occupation: " + student;
+
+</script>
